@@ -147,13 +147,23 @@ public class Solution
 		int ver=Integer.parseInt(sc.nextLine());
 		int edge=Integer.parseInt(sc.nextLine());
 		Graph obj=new Graph(ver);
+		int count1=0;
 		for(int i=0;i<edge;i++)
 		{
 			String a=sc.nextLine();
 			String[] b=a.split(" ");
+			if(Integer.parseInt(b[0])==Integer.parseInt(b[1]))
+			{
+				System.out.println("Cycle exists.");
+				break;
+			}	
+			else
+			{
 			obj.addEdge(Integer.parseInt(b[0]),Integer.parseInt(b[1]));
+			count1++;
+			}
 		}
-		
+		if(count1>0) {
 		boolean a=obj.DFS(0);
 		if(a==true)
 		{
@@ -162,4 +172,5 @@ public class Solution
 		else
 			System.out.println("Cycle doesn't exists.");
 	}
+}
 }
