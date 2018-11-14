@@ -30,12 +30,11 @@ Your Output:
 Cycle exists.
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Cycle exists.
 
 Your Output: 
-Cycle exists.
 Cycle exists.
 ----------------------------------------
 

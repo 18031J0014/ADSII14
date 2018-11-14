@@ -155,15 +155,16 @@ public class Solution
 			if(Integer.parseInt(b[0])==Integer.parseInt(b[1]))
 			{
 				System.out.println("Cycle exists.");
+count1++;
 				break;
 			}	
 			else
 			{
 			obj.addEdge(Integer.parseInt(b[0]),Integer.parseInt(b[1]));
-			count1++;
+			
 			}
 		}
-		if(count1>0) {
+		if(count1==0) {
 		boolean a=obj.DFS(0);
 		if(a==true)
 		{
