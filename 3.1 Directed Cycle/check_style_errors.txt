@@ -30,7 +30,6 @@ Starting audit...
 Audit done.
 Checkstyle ends with 28 errors.
 Starting audit...
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:1:9: Name 'M3' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:7:8: Unused import - java.util.Vector. [UnusedImports]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:8: Missing a Javadoc comment. [JavadocType]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:9:5: Missing a Javadoc comment. [JavadocVariable]
@@ -99,7 +98,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:97: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:98: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:99:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:99:14: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:99:29: Expression can be simplified. [SimplifyBooleanExpression]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:100: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:100:9: '{' at column 9 should be on the previous line. [LeftCurly]
@@ -107,7 +106,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:101:9: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:102: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:103: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:103:15: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:103:15: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:103:31: Expression can be simplified. [SimplifyBooleanExpression]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:104: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:104:13: '{' at column 13 should be on the previous line. [LeftCurly]
@@ -123,7 +122,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:113: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:114: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:114: Line has trailing spaces. [RegexpSingleline]
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:114:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:114:19: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:115: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:116: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:117: Line has trailing spaces. [RegexpSingleline]
@@ -147,7 +146,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:134:26: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:135:26: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:135:27: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:136:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:136:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:136:26: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:136:27: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:136:29: ';' is not followed by whitespace. [WhitespaceAfter]
@@ -164,7 +163,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:142: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:143:26: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:143:27: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:144:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:144:19: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:144:21: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:144:21: Expression can be simplified. [SimplifyBooleanExpression]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:144:23: '==' is not followed by whitespace. [WhitespaceAround]
@@ -173,7 +172,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:147:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Solution.java:148: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 142 errors.
+Checkstyle ends with 141 errors.
 Starting audit...
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\ADS1\ADSII14\3.1 Directed Cycle\Stack.java:7: Line has trailing spaces. [RegexpSingleline]
