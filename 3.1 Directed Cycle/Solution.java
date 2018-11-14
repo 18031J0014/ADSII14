@@ -86,7 +86,21 @@ class Graph
     }
     void addEdge(int v, int w) 
     { 
-        adj[v].add(w);
+        int count=0;
+    			Iterator<Integer> itr = adj[v].iterator(); 
+                
+                while (itr.hasNext())  
+                { 
+                    int x = itr.next(); 
+                    if(x==w)
+                    {
+                    	count++;break;
+                    }
+                    	
+                                     
+                }
+    		if(count==0)
+    		    adj[v].add(w);
     }
     boolean DFS(int s) 
     { 
