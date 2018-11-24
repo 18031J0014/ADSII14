@@ -1,5 +1,12 @@
+package M10;
+
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Scanner;
+import javafx.util.Pair;
+
 
 class Edge 
 {
@@ -63,7 +70,7 @@ class Graph
 	{
 		System.out.println(V-1+" vertices "+count+" edges");
 		for(int i = 0;i<V-1;i++)
-		{   System.out.print(i +" :");
+		{   System.out.print(i +": ");
 		 for(int j=adjacentList[i].size()-1;j>=0;j--)
 		 {
 			System.out.print(adjacentList[i].get(j));
@@ -74,24 +81,94 @@ class Graph
 	 
  }
 }
+/*class Shortest{
+	 public void dijkstra_GetMinDistances(int sourceVertex,int dest,int vertices){
+
+         boolean[] SPT = new boolean[vertices];
+        
+         int [] distance = new int[vertices];
+
+         for (int i = 0; i <vertices ; i++) {
+             distance[i] = Integer.MAX_VALUE;
+         }
+         
+         PriorityQueue<Pair<Integer, Integer>> pq = new PriorityQueue<>(vertices, new Comparator<Pair<Integer, Integer>>()
+         {
+             @Override
+             public int compare(Pair<Integer, Integer> p1, Pair<Integer, Integer> p2) {
+                 //sort using distance values
+                 int key1 = p1.getKey();
+                 int key2 = p2.getKey();
+                 return key1-key2;
+             }
+         });
+        
+         distance[0] = 0;
+         Pair<Integer, Integer> p0 = new Pair<>(distance[0],0);
+        
+         pq.offer(p0);
+
+         
+         while(!pq.isEmpty()){
+             //extract the min
+             Pair<Integer, Integer> extractedPair = pq.poll();
+
+             
+             int extractedVertex = extractedPair.getValue();
+             if(SPT[extractedVertex]==false) {
+                 SPT[extractedVertex] = true;
+
+                 
+                 LinkedList<Edge> list = adjacencylist[extractedVertex];
+                 for (int i = 0; i < list.size(); i++) {
+                     Edge edge = list.get(i);
+                     int destination = edge.destination;
+                     if (SPT[destination] == false) {
+                         
+                         int newKey =  distance[extractedVertex] + edge.weight ;
+                         int currentKey = distance[destination];
+                         if(currentKey>newKey){
+                             Pair<Integer, Integer> p = new Pair<>(newKey, destination);
+                             pq.offer(p);
+                             distance[destination] = newKey;
+                         }
+                     }
+                 }
+             }
+         }
+        
+         printDijkstra(distance, sourceVertex,dest,vertices);
+     }
+
+     public void printDijkstra(int[] distance, int sourceVertex,int dest,int vertices){
+         //System.out.println("Dijkstra Algorithm: (Adjacency List + Priority Queue)");
+         for (int i = 0; i <vertices ; i++) {
+         	if(i==dest) {
+             System.out.println(distance[i]);}
+         }
+         
+     }
+
+}*/
 public class Solution{
 	
 
 	public static void main (String args[])
 	{
 		Scanner s=new Scanner(System.in);
-		int n1=s.nextInt();
-		int n2=s.nextInt();
-		Graph g=new Graph(n1+1);
-		for(int i = 0;i<n2;i++)
+		int vertices=s.nextInt();
+		int edges=s.nextInt();
+		Graph g=new Graph(vertices+1);
+		for(int i = 0;i<edges;i++)
 		{
-			int n11=s.nextInt();
-			int n12=s.nextInt();
-			int n13=s.nextInt();
-			g.addEdge(n11, n12, n13);
+			int n1=s.nextInt();
+			int n2=s.nextInt();
+			int n3=s.nextInt();
+			g.addEdge(n1, n2, n3);
 			
 		}
 		String st=s.nextLine();
+		System.out.println(st);
 		String str=s.nextLine();
 		
 		switch(str)
@@ -99,7 +176,12 @@ public class Solution{
 		case "Graph":
 			g.display();
 		break;
-		case "DirectedPaths":break;
+		/*case "DirectedPaths":Shortest sh=new Shortest();
+								int x=s.nextInt();
+								int y=s.nextInt();
+									
+								sh.dijkstra_GetMinDistances(x, y, vertices);
+							break;*/
 		case "ViaPaths":break;
 		}
 	}
