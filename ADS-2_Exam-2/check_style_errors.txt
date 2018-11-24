@@ -58,12 +58,10 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:11: Missing a Javadoc comment. [JavadocType]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:12:1: '{' at column 1 should be on the previous line. [LeftCurly]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:14:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:28: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:29: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:56: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:64: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:70: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:71: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:52: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:60: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:66: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:15:67: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:17:1: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:17:18: Variable 'v' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:17:21: Missing a Javadoc comment. [JavadocVariable]
@@ -227,4 +225,4 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:182: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:183: Line is longer than 80 characters (found 108). [LineLength]
 Audit done.
-Checkstyle ends with 176 errors.
+Checkstyle ends with 174 errors.
