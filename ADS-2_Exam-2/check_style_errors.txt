@@ -50,7 +50,6 @@ Starting audit...
 Audit done.
 Checkstyle ends with 48 errors.
 Starting audit...
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:1:9: Name 'M10' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:4:8: Unused import - java.util.Comparator. [UnusedImports]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:5:8: Unused import - java.util.LinkedList. [UnusedImports]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:6:8: Unused import - java.util.PriorityQueue. [UnusedImports]
@@ -145,7 +144,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:71:53: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:71:58: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:71:59: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:72:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:72:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:72:31: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:72:32: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:72:33: '<' is not followed by whitespace. [WhitespaceAround]
@@ -155,7 +154,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:73:17: '{' at column 3 should be on the previous line. [LeftCurly]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:73:17: '{' at column 3 should have line break after. [LeftCurly]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:73:41: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:74:21: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:74:21: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:74:27: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:74:28: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:74:50: '-' is not preceded with whitespace. [WhitespaceAround]
@@ -202,7 +201,7 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:161:25: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:161:43: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:161:44: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:162:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:162:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:162:31: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:162:32: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:162:33: '<' is not followed by whitespace. [WhitespaceAround]
@@ -228,4 +227,4 @@ Starting audit...
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:182: Line has trailing spaces. [RegexpSingleline]
 [ERROR] E:\ADS1\ADSII14\ADS-2_Exam-2\Solution.java:183: Line is longer than 80 characters (found 108). [LineLength]
 Audit done.
-Checkstyle ends with 177 errors.
+Checkstyle ends with 176 errors.
