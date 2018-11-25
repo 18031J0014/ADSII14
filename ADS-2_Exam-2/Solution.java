@@ -190,7 +190,7 @@ public class Solution{
 			
 		}
 		String st=s.nextLine();
-		System.out.println(st);
+		//System.out.println(st);
 		String str=s.nextLine();
 		
 		switch(str)
